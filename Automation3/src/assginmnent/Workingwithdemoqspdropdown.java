@@ -20,16 +20,12 @@ public static void main(String[] args) {
 		
 		driver.get("https://demoapps.qspiders.com/dropdown?sublist=0");
 		
-        WebElement  D =	driver.findElement(By.id("select3"));
-        
-        
-        for(int d = 1 ; d<=7; d++) {
+                WebElement  D =	driver.findElement(By.id("select3"));
+	         Select s = new Select(D);
+                for(int i = 0 ; i<9; i++) {
+                s.selectByIndex(i);
         	
-            Select s = new Select(D);
-        	System.out.println(d);
-        	
-        	
-        }
+            }
         
         
         
