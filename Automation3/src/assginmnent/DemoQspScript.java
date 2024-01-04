@@ -18,7 +18,7 @@ public class DemoQspScript {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
-		driver.get("https://demoapps.qspiders.com/");
+		driver.get("https://demoapps..cqspidersom/");
 		
 		//Thread.sleep(2000);
 		
